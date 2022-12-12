@@ -1,0 +1,55 @@
+.maincontainer{
+    width: 80%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/486/289/original/gradient-background-instagram-free-vector.jpg");
+    margin-top: 0;
+    padding-bottom: 0.5em;
+}
+.header{
+    padding: 1em 4em;   
+    border-bottom: 2px solid #444;
+    border-top: 1px solid #444;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 0 0 2em 0;
+}
+.fa-bullseye{
+    color: rgb(7, 120, 7);
+    size: 10px;
+}
+.nameContainer{
+    align-self: center;
+}
+.pageName{
+    color: rgb(7, 120, 7);
+    font-size: xx-large;
+    padding-left: 0.1em;
+}
+.camIcon{
+    justify-self: right;
+}
+.button{
+    padding: 0.5em 2em;
+    background-color: green;
+    border: none;
+    border-radius: 20px;    
+}
+.button:hover{
+    background-color: black;
+    transform: translateY(2px);
+}
+.linkstyle{
+    text-decoration: none;
+    color: white;
+    font-size:medium;
+}
+.addpost{
+    background-color: pink;
+    padding:5px 10px;
+    margin-right: 20px;
+    color: black;
+    border-radius: 50%;
+}

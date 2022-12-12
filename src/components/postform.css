@@ -1,0 +1,39 @@
+
+.formContainer{
+    font-size: x-large;
+    width: 50%;
+    background-color: azure;
+    padding: 3em;
+    padding: auto;
+    margin: auto;
+    /* text-align: center; */
+    line-height: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: flex;
+    flex-direction: row; */
+}
+.innerform{
+    /* //text-align: center; */
+    padding: 2em 2em;
+    width: 80%;
+    border: 2px solid black;
+}
+/* .labelcontainer{
+    float: left;
+} */
+.inputcontainer{
+    width: 100%;
+    float: right;
+    border: 1px solid black;
+}
+.buttonpost{
+    text-align: center;
+}
+.post{
+    color: white;
+}
+.errorclass{
+    color: red;
+}
